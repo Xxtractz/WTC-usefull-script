@@ -18,3 +18,15 @@ gitcheck()
 
 alias gitcheck=gitcheck
 #echo "git clone $(1) && ls -lR rmdaba && rm -fr rmdaba"
+
+#git push stuff
+
+gitpushfinal(){
+	git add *
+	git commit -m "$1"
+	git push
+}
+
+alias gp=gitpushfinal
+
+# sh$ gp "my comment" 
