@@ -121,7 +121,7 @@ alias gitcheck=gitcheck
 #git push stuff
 
 gitpushfinal(){
-    # If in a git repo - call git mv. otherwise- call mv
+    # If no commit message return erro messages
     if [ -z "$1" ];
     then
         echo "Error : \033[0;31mPlease provide a commit message eg. gp \"commit message\"\033[0m"
