@@ -136,6 +136,8 @@ gitpushfinal(){
 alias gp=gitpushfinal
 
 # sh$ gp "my comment" 
+
+# For Resetting git cred on local machine
 gitreset(){
     git credential-osxkeychain erase
     host=github.com
