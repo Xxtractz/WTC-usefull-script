@@ -136,3 +136,11 @@ gitpushfinal(){
 alias gp=gitpushfinal
 
 # sh$ gp "my comment" 
+gitreset(){
+    git credential-osxkeychain erase
+    host=github.com
+    protocol=https
+}
+
+alias resetgit=gitreset
+
